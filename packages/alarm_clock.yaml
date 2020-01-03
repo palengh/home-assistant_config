@@ -2,7 +2,7 @@ automation:
   - alias: 'Wake Me Up'
     initial_state: False
     trigger:
-     - platform: time
+     - platform: time_pattern
        minutes: '/5'
        seconds: 2
     condition:
